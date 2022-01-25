@@ -2,7 +2,7 @@ import React from "react";
 import './Pathfinder.css';
 import Node from './Node/Node';
 import { dijkstra } from '../algorithms/dijkstra.js';
-import './Pathfinder.scss';
+import './Pathfinder.css';
 
 const START_NODE_ROW = 10;
 const START_NODE_COL = 15;

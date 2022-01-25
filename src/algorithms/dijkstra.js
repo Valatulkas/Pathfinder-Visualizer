@@ -1,4 +1,4 @@
-export function fijkstra(grid, startNode, finishNode) {
+export function dijkstra(grid, startNode, finishNode) {
     const visitedNodesInOrder = [];
     if (!startNode || !finishNode || startNode === finishNode) {
         return false;
