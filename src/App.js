@@ -1,5 +1,5 @@
 import React from 'react';
-import Pathfinder from './Pathfinder/Pathfinder.js'
+import Pathfinder from './Pathfinder/Pathfinder.jsx'
 
 function App() {
   return (

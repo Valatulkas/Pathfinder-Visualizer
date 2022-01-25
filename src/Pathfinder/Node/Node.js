@@ -1,14 +1,10 @@
 import React from 'react';
 import { Component } from 'react/cjs/react.production.min';
-import './node.scss';
+import './Node.scss';
 
 class Node extends Component {
-    constructor(props) {
-        super(props);
-        this.state ={}
-    }
-
     render () {
+
         const { isFinish, isStart } = this.props;
         const extraClassName = isFinish
             ? 'node-finish'
